@@ -1,45 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(112, 167, 212);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-nav {
+main{
+    background: var(--background);
     display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    height: 100px;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;color: black;
+
 }
 
-.lista {
+#hero{
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
-    list-style: none;
-    margin-left: 600px;
-}
-
-.logo {
-    margin: 0px;
-
-}
-
-.imagen {
-    display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    height: 100px;
-    width: 100px;
+
 }
 
-nav .lista :hover {
-    color: rgb(14, 9, 9);
-    cursor: pointer;
+.hero-card{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 50%;
+}
+
+.hero h1{
+    font-size: 120px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: rgb(20, 19, 19);
+
+}
+
+#hero a{
+    color: aliceblue;
+    background-color: rgb(82, 82, 151);
+    width: 120px;
+    padding: 8px 0;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+#info{
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+#info h2{
+    font-size: 25px;
+    
 }
